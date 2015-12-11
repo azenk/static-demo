@@ -10,7 +10,8 @@
   <li>Updated list to prove openshift redeploy works.</li>
   <?php 
     date_default_timezone_set("UTC"); 
-    echo "UTC:".time();  ?>
+    echo "UTC:".time();  
+    phpinfo(); ?>
 </ul>
 </body>
 </html>
