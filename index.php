@@ -8,7 +8,9 @@
   <li>Test list item</li>
   <li>Test another item</li>
   <li>Updated list to prove openshift redeploy works.</li>
-  <?php phpinfo(); ?>
+  <?php 
+    date_default_timezone_set("UTC"); 
+    echo "UTC:".time();  ?>
 </ul>
 </body>
 </html>
